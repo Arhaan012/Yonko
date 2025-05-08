@@ -10,7 +10,7 @@ bot = TelegramClient('session' , api_id , api_hash)
 chat = 572621020
 
 #edit the list
-list = ["Eternatus", "Zacian", "Shaymin", "Dialga", "Palkia", "Mewtwo", "Arceus", "Zamazenta", "Glastrier", "Kyurem", "Lunala", "Necrozma", "Shiny", "✨", "Rayquaza", "Cosmoem", "Yveltal", "Kyogre", "Xerneas", "Cosmog", "Groudon", "Giratina", "Zeraora", "Marshadow", "Buzzwole", "Solgaleo", "Zygarde", "Regigigas", "Mew", "Ho-oh", "Lugia", "Raikou", "Entei", "Celebi", "Deoxys", "Jirachi", "Darkrai", "Reshiram", "Zekrom", "Victini", "Hoopa", "Diancie", "Volcanion", "Pheromosa", "Magearna", "Regieleki", "Spectrier", "Mewtwo", "Beldum", "Bagon", "Ralts", "Kartana",  "Vigoroth", "Swablu", "Slakoth", "Treecko", "Mudkip", "Nincada", "Kirlia"]
+list = ["Eternatus", "Zacian", "Shaymin", "Dialga", "Palkia", "Mewtwo", "Arceus", "Zamazenta", "Glastrier", "Kyurem", "Lunala", "Necrozma", "Shiny", "✨", "Rayquaza", "Cosmoem", "Yveltal", "Kyogre", "Xerneas", "Cosmog", "Groudon", "Giratina", "Zeraora", "Marshadow", "Buzzwole", "Solgaleo", "Zygarde", "Regigigas", "Mew", "Ho-oh", "Lugia", "Raikou", "Entei", "Celebi", "Deoxys", "Jirachi", "Darkrai", "Reshiram", "Zekrom", "Victini", "Hoopa", "Diancie", "Volcanion", "Pheromosa", "Magearna", "Regieleki", "Spectrier", "Mewtwo", "Beldum", "Darumaka", "Terrakion", "Kartana",  "Vigoroth", "Slakoth", "Treecko", "Mudkip"]
 @bot.on(events.NewMessage(outgoing=True,pattern='.go'))
 async def begin(event):
     global hunt
